@@ -1,5 +1,10 @@
 .App {
   text-align: center;
+  
+}
+.formulaire{
+  background-color: purple;
+  margin: 30px;
 }
 
 .App-logo {
@@ -14,12 +19,12 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #2e5f68;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  align-items: start;
+  /* justify-content: start; */
   font-size: calc(10px + 2vmin);
   color: white;
 }
@@ -35,4 +40,18 @@
   to {
     transform: rotate(360deg);
   }
+}
+button{
+  background-color: seagreen!important;
+  color: black!important;
+  
+  
+}
+button:hover{
+  color:purple!important;
+  font-size: large!important;
+  font-weight: bold!important;
+}
+.h4{
+  color: red!important;
 }
